@@ -24,7 +24,7 @@ fn fibonacci(n: u32) -> u32 {
     let mut n2: u32 = 1;
 
     if (n == n1) || (n == n2) {
-        return n
+        return n;
     }
 
     for _i in 1..n {
